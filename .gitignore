@@ -1,0 +1,32 @@
+# 忽略.idea文件夹
+.idea/
+
+# 忽略常见数据文件或数据文件夹
+data/
+dataset/
+*.csv
+*.tsv
+*.json
+*.xlsx
+*.zip
+*.tar
+*.tar.gz
+*.h5
+*.npy
+*.npz
+
+# 忽略 Jupyter Notebook 的 checkpoint
+.ipynb_checkpoints/
+
+# 忽略 Python 编译缓存
+__pycache__/
+*.py[cod]
+
+# 忽略虚拟环境
+venv/
+.env/
+
+# 训练好的模型
+model/
+*.pt
+*.pth
